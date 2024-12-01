@@ -1,7 +1,6 @@
 from fastapi import FastAPI
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 import joblib
-import numpy as np
 from typing import Literal
 import pandas as pd
 
